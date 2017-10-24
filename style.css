@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;  /* matched to HTML link as per Google Fonts site */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+p {
+  font-size: 14px;
+}
