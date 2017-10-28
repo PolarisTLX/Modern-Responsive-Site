@@ -59,8 +59,21 @@ nav.navbar {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
+
+/*hmaburger icon: toggler:*/
+.navbar-default .navbar-toggler {
+  color: #9db9c6;
+  border-color:  #9db9c6;
+/*background-color: black;*/
+}
+/*hamburger 3 lines color:*/
+.navbar-default .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#9db9c6' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
 .bg-customize .navbar-nav .nav-link {
-  color: #B5B5B5;
+  color: #9db9c6;
   font-family: "Raleway", sans-serif;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -140,7 +153,7 @@ nav.navbar {
 .btn-download,
 .btn-download:focus,
 .btn-download:active,
-.btn-download:visited
+/*.btn-download:visited*/
 {
   background: transparent;
   border-color: #129CF3;
@@ -162,7 +175,7 @@ nav.navbar {
 .btn-tour,
 .btn-tour:focus,
 .btn-tour:active,
-.btn-tour:visited
+/*.btn-tour:visited*/
 {
   color: #A9ABB0;
   margin-left: 20px;
@@ -318,7 +331,7 @@ nav.navbar {
 .btn-purchase-now,
 .btn-purchase-now:active,
 .btn-purchase-now:focus,
-.btn-purchase-now:visited
+/*.btn-purchase-now:visited*/
 {
   background-color: #129CF3;
   border: 1px solid #129CF3;
@@ -481,7 +494,7 @@ nav.navbar {
 .submit-btn,
 .submit-btn:active,
 .submit-btn:focus,
-.submit-btn:visited
+/*.submit-btn:visited*/
 {
   background-color: transparent;
   border: 1px solid #129CF3;
