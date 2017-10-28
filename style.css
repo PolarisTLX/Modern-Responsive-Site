@@ -156,7 +156,7 @@ nav.navbar {
 /*.btn-download:visited*/
 {
   background: transparent;
-  border-color: #129CF3;
+  /*border: 1px solid #129CF3 !important;*/
   padding: 10px 30px 10px 30px;
   font-size: 19px;
   text-transform: uppercase;
@@ -167,6 +167,11 @@ nav.navbar {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
+/*this was needed to force the border around the btn, perhaps there was a conflict*/
+.btn-download {
+  border: 1px solid  #129CF3 !important;
+}
+
 .btn-download:hover {
   background-color: #129CF3;
   color: white;

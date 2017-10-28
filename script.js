@@ -1,3 +1,14 @@
+/*
+Strict mode helps out in a couple ways:
+
+It catches some common coding bloopers, throwing exceptions.
+It prevents, or throws errors, when relatively "unsafe" actions are taken (such as gaining access to the global object).
+It disables features that are confusing or poorly thought out.
+Also note you can apply "strict mode" to the whole file... Or you can use it only for a specific function.
+Only used in specific manner in this page
+*/
+
+
 // Show and Hide navbar
 
 $(document).ready(function() {
